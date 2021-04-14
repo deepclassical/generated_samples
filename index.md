@@ -1,12 +1,32 @@
+本网页用于提供工程硕士专业学位论文《基于深度学习的音乐生成模型研究》中所提出的两个模型：DeepClassical和MuseRNN的音乐生成样例。
+
 ## DeepClassical
 
 以下展示的音频文件用于DeepClassical的听众实验。MIDI文件使用GarageBand的Strings Staccato音色进行渲染，所有乐曲都统一在默认速度 (bpm=120) 和力度 (velocity=90) 下进行。因此，参与者可以关注乐谱内容的差异，而不是表演风格。
 
 问卷开头提供了时长42秒的BWV 1001.4 Presto节选作为参考 (该片段不包括在测试样本中)。
 
-<audio id="audio" controls="" preload="none">
-<source id="mp3" src="Re_Bach.mp3">
-</audio>
+<div align=center>
+    <audio id="audio" controls="" preload="none">
+    <source id="mp3" src="Re_Bach.mp3">
+    </audio>
+</div>
+
+<div align=center>
+    <img src="Bach-1.png" width="45%">
+</div>
+
+下面附上DeepClassical根据参考音乐生成的音频样例。
+
+<div align=center>
+    <audio id="audio" controls="" preload="none">
+    <source id="mp3" src="Re_DC.mp3">
+    </audio>
+</div>
+
+<div align=center>
+    <img src="DeepClassical-1.png" width="45%">
+</div>
 
 参与者需要在问卷中回答三个不同的问题。这三个问题依次是开头、中间和结尾的辨别问题，要求参与者选择从每道题选出节选自巴赫创作的乐曲的音频。每个问题包括三个音频片段：一个巴赫原作和两个分别由DeepClassical及其变体生成的作品。
 
@@ -84,12 +104,6 @@
 </table>
   
 <br>
-  
-最后，请欣赏基于参考音频由DeepClassical生成的音乐片段。 :)
-
-<audio id="audio" controls="" preload="none">
-<source id="mp3" src="Re_DC.mp3">
-</audio>
 
 ## MuseRNN
 
